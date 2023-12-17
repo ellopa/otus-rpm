@@ -203,7 +203,7 @@ Dec 17 09:28:01 nginxc8s systemd[1]: Starting nginx - high performance web serve
 Dec 17 09:28:01 nginxc8s systemd[1]: Started nginx - high performance web server.
 ```
 
-### Создадание своего репозитория.
+### 2.Создадание своего репозитория.
  
 - Создать свой репозиторий.
 >- Директория для статики по умолчанию у NGINX /usr/share/nginx/html
@@ -276,7 +276,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 </pre><hr></body>
 </html>
 ```
-### Тестируем репозиторий.
+### 3.Тестируем репозиторий.
 - Добавить его в /etc/yum.repos.d
 ```
 [root@nginxc8s ~]# cat >> /etc/yum.repos.d/otus.repo << EOF
