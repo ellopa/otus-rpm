@@ -7,7 +7,7 @@
 
 Реализовать это все либо в Vagrant, либо развернуть у себя через NGINX и дать ссылку на репозиторий.
 
-### Выполнение - пакет NGINX, собиранный с поддержкой openssl.
+### 1.Выполнение - пакет NGINX, собранный с поддержкой openssl.
 
 - Необходимо установить следующие пакеты:
 ```bash
@@ -203,8 +203,11 @@ Dec 17 09:28:01 nginxc8s systemd[1]: Starting nginx - high performance web serve
 Dec 17 09:28:01 nginxc8s systemd[1]: Started nginx - high performance web server.
 ```
 
+### Создадание своего репозитория.
+ 
 - Создать свой репозиторий.
->- Директория для статики у NGINX по умолчанию /usr/share/nginx/html
+>- Директория для статики по умолчанию у NGINX /usr/share/nginx/html
+
 ```
 mkdir /usr/share/nginx/html/repo
 ```
